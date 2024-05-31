@@ -52,7 +52,7 @@ if __name__ == "__main__":
     )
 
 # Creates homepage from template
-    with open("./html/homepage.html", 'wb') as f_out:
+    with open("./html/index.html", 'wb') as f_out:
         f_out.write(
             bytes(
                 tmpl.render(
